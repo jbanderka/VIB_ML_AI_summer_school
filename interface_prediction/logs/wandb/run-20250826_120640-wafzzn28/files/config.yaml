@@ -1,0 +1,116 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        e:
+            9us2d0nso5grz469m6n1v8ka5qtcvilj:
+                args:
+                    - fit
+                    - -c
+                    - config.yaml
+                    - --trainer.logger.name=julia_test
+                codePath: project/model.py
+                codePathLocal: project/model.py
+                cpu_count: 48
+                cpu_count_logical: 48
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "10464022528"
+                        used: "8142139392"
+                email: julia.bandera@kuleuven.be
+                executable: /readonly/dodrio/apps/RHEL8/zen2-ib/software/Python/3.11.3-GCCcore-12.3.0/bin/python
+                gpu: NVIDIA A100-SXM4-80GB
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-1c3e1772-a93c-2dc8-29c3-46c4668e40f2
+                host: gpu528.dodrio.os
+                memory:
+                    total: "540291416064"
+                os: Linux-4.18.0-477.95.1.el8_8.x86_64-x86_64-with-glibc2.28
+                program: /dodrio/scratch/projects/2024_301/Deep-Learning-Protein-Structure-Prediction/julia/lightning_quickstart/project/model.py
+                python: CPython 3.11.3
+                root: logs
+                slurm:
+                    cluster_name: dodrio
+                    clusters: dodrio
+                    conf: /etc/slurm/slurm.conf_dodrio
+                    cpus_on_node: "1"
+                    cpus_per_gpu: "1"
+                    export_env: NONE
+                    get_user_env: "1"
+                    gpus_on_node: "1"
+                    gtids: "0"
+                    job_account: "2024_301"
+                    job_cpus_per_node: "1"
+                    job_end_time: "1756217405"
+                    job_gid: "2537249"
+                    job_gpus: "0"
+                    job_id: "12599155"
+                    job_name: sys/dashboard/sys/codeserver
+                    job_nodelist: gpu528.dodrio.os
+                    job_num_nodes: "1"
+                    job_partition: gpu_rome_a100_80
+                    job_qos: dodrio-2024_301
+                    job_reservation: vib_ml_summer_school_tuesday
+                    job_start_time: "1756195805"
+                    job_uid: "2537249"
+                    job_user: vsc37249
+                    jobid: "12599155"
+                    localid: "0"
+                    mem_per_cpu: "10410"
+                    nnodes: "1"
+                    nodeid: "0"
+                    nodelist: gpu528.dodrio.os
+                    nprocs: "1"
+                    ntasks: "1"
+                    ntasks_per_node: "1"
+                    partition: gpu_rome_a100_80
+                    prio_process: "0"
+                    procid: "0"
+                    submit_dir: /var/www/ood/apps/sys/dashboard
+                    submit_host: ood51.dodrio.os
+                    task_pid: "901754"
+                    tasks_per_node: "1"
+                    topology_addr: ibsw_gpu_rome_ph2.ibsw9.gpu528.dodrio.os
+                    topology_addr_pattern: switch.switch.node
+                startedAt: "2025-08-26T10:06:40.854170Z"
+                writerId: 9us2d0nso5grz469m6n1v8ka5qtcvilj
+        m:
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "2": '*'
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.11.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 106
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 106
+            "3":
+                - 7
+                - 13
+                - 66
+            "4": 3.11.3
+            "5": 0.21.1
+            "6": 4.39.3
+            "12": 0.21.1
+            "13": linux-x86_64

@@ -1,0 +1,19 @@
+/dodrio/scratch/users/vsc37249/.local/lib/python3.11/site-packages/lightning/pytorch/callbacks/model_checkpoint.py:701: Checkpoint directory /dodrio/scratch/projects/2024_301/Deep-Learning-Protein-Structure-Prediction/julia/lightning_quickstart/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name          | Type             | Params | Mode
+-----------------------------------------------------------
+0 | model         | Sequential       | 19.1 K | train
+1 | train_metrics | MetricCollection | 0      | train
+2 | val_metrics   | MetricCollection | 0      | train
+3 | criterion     | CrossEntropyLoss | 0      | train
+-----------------------------------------------------------
+19.1 K    Trainable params
+0         Non-trainable params
+19.1 K    Total params
+0.076     Total estimated model params size (MB)
+30        Modules in train mode
+0         Modules in eval mode
+SLURM auto-requeueing enabled. Setting signal handlers.
+Epoch 11: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 41/41 [00:01<00:00, 21.61it/s, v_num=zn28]
+                                                                                                                                                                                                                                  

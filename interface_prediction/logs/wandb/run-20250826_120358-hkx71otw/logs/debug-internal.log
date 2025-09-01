@@ -1,0 +1,16 @@
+{"time":"2025-08-26T12:03:59.147942069+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-26T12:03:59.468693514+02:00","level":"INFO","msg":"stream: created new stream","id":"hkx71otw"}
+{"time":"2025-08-26T12:03:59.468757335+02:00","level":"INFO","msg":"stream: started","id":"hkx71otw"}
+{"time":"2025-08-26T12:03:59.470431765+02:00","level":"INFO","msg":"handler: started","stream_id":"hkx71otw"}
+{"time":"2025-08-26T12:03:59.470475935+02:00","level":"INFO","msg":"writer: started","stream_id":"hkx71otw"}
+{"time":"2025-08-26T12:03:59.470608646+02:00","level":"INFO","msg":"sender: started","stream_id":"hkx71otw"}
+{"time":"2025-08-26T12:03:59.58305474+02:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-26T12:03:59.583211561+02:00","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-08-26T12:04:00.584835861+02:00","level":"INFO","msg":"stream: closing","id":"hkx71otw"}
+{"time":"2025-08-26T12:04:00.586781613+02:00","level":"ERROR","msg":"sender: uploadConfigFile: stream: no run"}
+{"time":"2025-08-26T12:04:00.763098051+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-26T12:04:00.763260962+02:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /project not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-08-26T12:04:00.763805005+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-26T12:04:00.763837855+02:00","level":"INFO","msg":"handler: closed","stream_id":"hkx71otw"}
+{"time":"2025-08-26T12:04:00.76454127+02:00","level":"INFO","msg":"sender: closed","stream_id":"hkx71otw"}
+{"time":"2025-08-26T12:04:00.76456164+02:00","level":"INFO","msg":"stream: closed","id":"hkx71otw"}

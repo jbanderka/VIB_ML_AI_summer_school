@@ -1,0 +1,16 @@
+{"time":"2025-08-26T11:58:39.595830134+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-26T11:58:39.894837289+02:00","level":"INFO","msg":"stream: created new stream","id":"knby8una"}
+{"time":"2025-08-26T11:58:39.89489351+02:00","level":"INFO","msg":"stream: started","id":"knby8una"}
+{"time":"2025-08-26T11:58:39.896374989+02:00","level":"INFO","msg":"handler: started","stream_id":"knby8una"}
+{"time":"2025-08-26T11:58:39.89641368+02:00","level":"INFO","msg":"writer: started","stream_id":"knby8una"}
+{"time":"2025-08-26T11:58:39.89654409+02:00","level":"INFO","msg":"sender: started","stream_id":"knby8una"}
+{"time":"2025-08-26T11:58:40.011237529+02:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-26T11:58:40.01131237+02:00","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-08-26T11:58:41.01275988+02:00","level":"INFO","msg":"stream: closing","id":"knby8una"}
+{"time":"2025-08-26T11:58:41.016632495+02:00","level":"ERROR","msg":"sender: uploadConfigFile: stream: no run"}
+{"time":"2025-08-26T11:58:41.181541687+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-26T11:58:41.181626847+02:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /project not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-08-26T11:58:41.1820946+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-26T11:58:41.1821236+02:00","level":"INFO","msg":"handler: closed","stream_id":"knby8una"}
+{"time":"2025-08-26T11:58:41.183830721+02:00","level":"INFO","msg":"sender: closed","stream_id":"knby8una"}
+{"time":"2025-08-26T11:58:41.183849852+02:00","level":"INFO","msg":"stream: closed","id":"knby8una"}
